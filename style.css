@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.faq {
+  width: 500px;
+  margin: 50px auto;
+}
+
+.faq-items_title {
+  cursor: pointer;
+  background-color: #3399dd;
+  color: #fff;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+}
+
+.faq-items_title:hover {
+  background-color: #fff;
+  color: #3399dd;
+}
+
+.faq-items_content {
+  display: none;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.faq-items:first-child .faq-items_title {
+  border-radius: 10px 10px 0 0;
+}
+
+.faq-items:last-child .faq-items_title {
+  border-radius: 0 0 10px 10px;
+}
